@@ -1,14 +1,26 @@
 {
   "name": "react-cmaker",
-  "version": "1.0.2",
+  "version": "2.0.3",
   "description": "make react component",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "node",
+    "npm",
+    "javascript"
+  ],
+   "maintainers": [
+    {
+      "name": "dean",
+      "email": "info@deanhan.cn"
+    }
+  ],
   "author": "",
   "license": "ISC",
+  "preferGlobal": "true",
   "bin": {
     "cmaker": "./bin/cmaker.js"
   },
