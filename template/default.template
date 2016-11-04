@@ -1,0 +1,22 @@
+import React, { Component, PropTypes } from 'react';
+import './index.scss';
+
+class $name extends Component {
+  render() {
+    constructor(props) {
+      super(props);
+    }
+
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
+
+$name.proptype = {
+
+}
+
+export default $name;
