@@ -9,13 +9,13 @@ program
   .version('1.1.0')
   .option('-n --name [names]', 'Component Names', arr)
   .option('-s --stype <type>', 'Style Type', /^(css|less|scss|sass)$/, 'css')
-  .option('-t --template <template>', 'Template', 'default')
+  .option('-t --template <template>', 'Template', 'default.template')
   .parse(process.argv)
 
 if (program.name) {
-  console.log('you will create components %s with Scss', program.stype);
+  console.log('You will create components %s with %s', program.name, program.stype);
   createComponent(program.name, program.stype, program.template);
 }
 
-console.log("done");
+console.log("Component create complete!");
 
