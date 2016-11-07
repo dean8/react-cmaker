@@ -4,7 +4,7 @@ A cli to create react components
 
 ## v3.0.1
 
-support `css`,`scss`,`less`
+support `css`,`scss`,`less`,`Sass`
 
 ## support
 
@@ -36,7 +36,7 @@ cmaker -t custom.template
 - index.css
 
 
-### [index].jsx
+### [index].js
 
 ```
 import React, { Component, PropTypes } from 'react';
