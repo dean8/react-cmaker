@@ -1,30 +1,91 @@
 {
-  "name": "react-cmaker",
-  "version": "2.0.3",
-  "description": "make react component",
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "react-cmaker",
+        "scope": null,
+        "escapedName": "react-cmaker",
+        "name": "react-cmaker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\"
+    ]
+  ],
+  "_from": "react-cmaker@latest",
+  "_id": "react-cmaker@2.0.9",
+  "_inCache": true,
+  "_location": "/react-cmaker",
+  "_nodeVersion": "4.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-cmaker-2.0.9.tgz_1478349519048_0.9201525629032403"
   },
+  "_npmUser": {
+    "name": "dean8",
+    "email": "826554003@qq.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-cmaker",
+    "scope": null,
+    "escapedName": "react-cmaker",
+    "name": "react-cmaker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-cmaker/-/react-cmaker-2.0.9.tgz",
+  "_shasum": "37a7e7bf3982da66e0f234fae95b974ad00cf2ef",
+  "_shrinkwrap": null,
+  "_spec": "react-cmaker",
+  "_where": "D:\\",
+  "author": {
+    "name": "Dean"
+  },
+  "bin": {
+    "cmaker": "./bin/cmaker.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dean8/react-cmaker/issues"
+  },
+  "homepage": "https://github.com/dean8/react-cmaker#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "description": "make react component",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "37a7e7bf3982da66e0f234fae95b974ad00cf2ef",
+    "tarball": "https://registry.npmjs.org/react-cmaker/-/react-cmaker-2.0.9.tgz"
+  },
+  "gitHead": "70ccae66feedcb6826fb5b72067c4552118c0cfc",
   "keywords": [
     "react",
     "node",
     "npm",
     "javascript"
   ],
-   "maintainers": [
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "maintainers": [
     {
-      "name": "dean",
+      "name": "dean8",
       "email": "info@deanhan.cn"
     }
   ],
-  "author": "",
-  "license": "ISC",
+  "name": "react-cmaker",
+  "optionalDependencies": {},
   "preferGlobal": "true",
-  "bin": {
-    "cmaker": "./bin/cmaker.js"
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "commander": "^2.9.0"
-  }
+  "version": "3.0.1"
 }
