@@ -2,7 +2,7 @@
 
 A cli to create react components
 
-## v3.0.0
+## v3.0.1
 
 support `css`,`scss`,`less`
 
@@ -67,6 +67,6 @@ export default $dirName$;
 
 ```
 .$dirName$ {
-  
+
 }
 ```
