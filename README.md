@@ -43,11 +43,11 @@ import React, { Component, PropTypes } from 'react';
 import './index.$cssType$';
 
 class $dirName$ extends Component {
-  render() {
-    constructor(props) {
-      super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
+  render() {
     return (
       <div className="$dirName$">
 
