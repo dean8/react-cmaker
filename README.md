@@ -2,7 +2,7 @@
 
 A cli to create react components
 
-## v3.0.1
+## v3.0.3
 
 support `css`,`scss`,`less`,`sass`
 
