@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var program = require('commander');
-var createComponent = require('../lib/createComponent.js');
+var createComponent = require('../lib');
 
 function arr(val) {
     return val.split(",");
