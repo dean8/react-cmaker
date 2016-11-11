@@ -9,7 +9,7 @@ function arr(val) {
 program
   .version('1.1.0')
   .option('-n --name [names]', 'Component Names', arr)
-  .option('-s --stype <type>', 'Style Type', /^(css|less|scss|sass)$/, 'css')
+  .option('-s --stype <type>', 'Style Type', /^(css|less|scss|sass)$/, 'scss')
   .option('-t --template <template>', 'Template', 'default.template')
   .parse(process.argv)
 
