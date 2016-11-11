@@ -2,7 +2,7 @@
 
 A cli to create react components
 
-## v3.0.1
+## v3.0.3
 
 support `css`,`scss`,`less`,`sass`
 
@@ -33,6 +33,7 @@ cmaker -t custom.template
 ## component details
 
 - index.js
+- handler.js
 - index.css
 
 
@@ -40,6 +41,7 @@ cmaker -t custom.template
 
 ```
 import React, { Component, PropTypes } from 'react';
+import * as handler from './handler.js';
 import './index.$cssType$';
 
 class $dirName$ extends Component {
@@ -49,7 +51,7 @@ class $dirName$ extends Component {
 
   render() {
     return (
-      <div className="$dirName$">
+      <div className="$className$">
 
       </div>
     );
@@ -61,6 +63,7 @@ $dirName$.proptype = {
 }
 
 export default $dirName$;
+
 ```
 
 ### [index].css
@@ -69,4 +72,10 @@ export default $dirName$;
 .$dirName$ {
 
 }
+```
+
+### [handler].js
+
+```
+// handlers write here
 ```
